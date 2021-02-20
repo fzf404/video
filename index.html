@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>小fの视频解析</title>
+  <link rel="stylesheet" href="src/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h3 class="title">
+      fzf-影视解析
+    </h3>
+    <div class="video">
+      <iframe src="https://z1.m1907.cn/?jx=海绵宝宝第一季" width="960" height="480" allowfullscreen="true" title="解析"
+        class="play" id="play"></iframe>
+      <div class="search">
+        <input type="text" placeholder="输入影片名称" id="name">
+        <button onClick="update()">解析</button>
+      </div>
+    </div>
+  </div>
+  <script src="src/app.js"></script>
+</body>
+
+</html>

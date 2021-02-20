@@ -1,0 +1,49 @@
+body {
+  background: #191A1B;
+}
+
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+.container .title {
+  color: #ccc;
+  font-weight: 300;
+  font-size: 26px;
+}
+.container .video {
+  display: flex;
+  flex-flow: column wrap;
+  background: #212324;
+  border: 20px solid #212324;
+  border-radius: 8px;
+}
+.container .video .play {
+  border: 0;
+}
+.container .video .search {
+  margin-top: 10px;
+  align-self: center;
+}
+.container .video .search input {
+  color: #ccc;
+  font-size: 16px;
+  background: #191A1B;
+  width: 480px;
+  padding: 10px;
+  border: 0px;
+  border-radius: 6px;
+  outline-style: none;
+}
+.container .video .search button {
+  color: #aaa;
+  font-size: 16px;
+  background-color: #16161e;
+  margin-left: 5px;
+  padding: 9px 16px;
+  border: 0px;
+  border-radius: 6px;
+}
+
+/*# sourceMappingURL=style.css.map */
