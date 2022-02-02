@@ -1,0 +1,65 @@
+/*
+ * @Author: fzf404
+ * @Date: 2022-08-22 12:52:37
+ * @LastEditors: fzf404 nmdfzf404@163.com
+ * @LastEditTime: 2022-08-22 13:17:04
+ * @Description: 样式表
+ */
+
+body {
+  background-color: #191a1b;
+}
+
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+
+  .title {
+    color: #ccc;
+    font-weight: 300;
+    font-size: 26px;
+  }
+
+  .video {
+    display: flex;
+    flex-flow: column wrap;
+
+    background-color: #212324;
+    border: 20px solid #212324;
+    border-radius: 8px;
+
+    .play {
+      border: 0;
+    }
+
+    .search {
+      margin-top: 10px;
+      align-self: center;
+
+      input {
+        color: #ccc;
+        font-size: 16px;
+        background-color: #191a1b;
+
+        width: 480px;
+        padding: 10px;
+        border: 0px;
+        border-radius: 6px;
+        outline-style: none;
+      }
+
+      button {
+        color: #aaa;
+        font-size: 16px;
+        background-color: #16161e;
+
+        margin-left: 5px;
+        padding: 9px 16px;
+        // outline-style: none;
+        border: 0px;
+        border-radius: 6px;
+      }
+    }
+  }
+}

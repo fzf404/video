@@ -1,5 +1,13 @@
+@charset "UTF-8";
+/*
+ * @Author: fzf404
+ * @Date: 2022-08-22 12:52:37
+ * @LastEditors: fzf404 nmdfzf404@163.com
+ * @LastEditTime: 2022-08-22 13:17:04
+ * @Description: 样式表
+ */
 body {
-  background: #191A1B;
+  background-color: #191a1b;
 }
 
 .container {
@@ -15,7 +23,7 @@ body {
 .container .video {
   display: flex;
   flex-flow: column wrap;
-  background: #212324;
+  background-color: #212324;
   border: 20px solid #212324;
   border-radius: 8px;
 }
@@ -29,7 +37,7 @@ body {
 .container .video .search input {
   color: #ccc;
   font-size: 16px;
-  background: #191A1B;
+  background-color: #191a1b;
   width: 480px;
   padding: 10px;
   border: 0px;
