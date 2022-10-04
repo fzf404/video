@@ -2,7 +2,7 @@
  * @Author: fzf404
  * @Date: 2022-08-22 12:42:27
  * @LastEditors: fzf404 nmdfzf404@163.com
- * @LastEditTime: 2022-08-22 13:29:58
+ * @LastEditTime: 2022-10-04 16:25:41
  * @Description: 解析控制
  */
 
@@ -52,5 +52,5 @@ function onEnter(event) {
  */
 function parseVideo(value) {
   const iframe = document.getElementById('play')
-  iframe.setAttribute('src', 'https://z1.m1907.cn/?jx=' + value)
+  iframe.setAttribute('src', 'https://im1907.top/?jx=' + value)
 }
